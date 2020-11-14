@@ -1,6 +1,6 @@
 {
-  "name": "react-native-banner-carousel",
-  "version": "1.0.3",
+  "name": "@dkbrothers/react-native-banner-carousel",
+  "version": "1.0.5",
   "description": "a carousel component for React Native",
   "main": "out/index.js",
   "typings": "out/index.d.ts",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/f111fei/react-native-banner-carousel.git"
+    "url": "git+https://github.com/dkbrothers/react-native-banner-carousel.git"
   },
   "keywords": [
     "react-native-component",
@@ -26,10 +26,11 @@
   "author": "xzper",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/f111fei/react-native-banner-carousel/issues"
+    "url": "https://github.com/dkbrothers/react-native-banner-carousel/issues"
   },
-  "homepage": "https://github.com/f111fei/react-native-banner-carousel",
-  "devDependencies": {
-    "@types/react-native": "^0.46.9"
+  "homepage": "https://github.com/dkbrothers/react-native-banner-carousel",
+  "devDependencies": {},
+  "dependencies": {
+    "@types/react-native": "^0.63.34"
   }
 }
