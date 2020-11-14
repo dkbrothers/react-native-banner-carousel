@@ -47,7 +47,8 @@ export default class Carousel extends React.Component<CarouselProps, CarouselSta
             return Animated.spring(animate, {
                 toValue: toValue,
                 friction: 10,
-                tension: 50
+                tension: 50,
+                useNativeDriver: false
             });
         }
     };
@@ -201,7 +202,7 @@ export default class Carousel extends React.Component<CarouselProps, CarouselSta
         };
 
         if (animated) {
-            this.pageAnimation = this.props.animation(this.state.scrollValue, index);
+            this.pageAnimation = this.props.animation(this.state.scrollValue, index, false);
             const animationId = this.state.scrollValue.addListener((state: { value: number }) => {
                 setIndex(state.value);
             });

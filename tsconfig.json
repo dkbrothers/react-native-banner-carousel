@@ -1,14 +1,15 @@
 {
-    "compilerOptions": {
-        "target": "es2016",
-        "module": "commonjs",
-        "moduleResolution": "node",
-        "jsx": "react",
-        "rootDir": "src",
-        "outDir": "./out",
-        "declaration": true
-    },
-    "exclude": [
-        "node_modules"
-    ]
+  "compilerOptions": {
+    "target": "ES2016",                  
+    "module": "commonjs",               
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "outDir": "./out",
+    "declaration": true,
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
 }
