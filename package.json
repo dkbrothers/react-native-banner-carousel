@@ -1,6 +1,6 @@
 {
   "name": "@dkbrothers/react-native-banner-carousel",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "a carousel component for React Native",
   "main": "out/index.js",
   "typings": "out/index.d.ts",
